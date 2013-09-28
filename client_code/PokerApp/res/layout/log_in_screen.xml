@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:text="@string/button_back" 
+        android:onClick="lastScreen"	/>
+    
+    <Button 
+        android:id="@+id/button_2"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/button_nxt"
+		android:onClick="nxtScreen" 	/>
+    
+    <Button 
+       	android:id="@+id/button_3"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/button_create"
+		android:onClick="createAccount" />
+    
+</LinearLayout>

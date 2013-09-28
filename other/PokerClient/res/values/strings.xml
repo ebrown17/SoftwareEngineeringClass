@@ -1,0 +1,51 @@
+<resources>
+
+    <string name="app_name">PokerClient</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Main Menu</string>
+    <string name="title_splash">Welcome</string>
+    <string name="title_login_create">Login or Create Account</string>
+    <string name="login_button">Login</string>
+	<string name="create_account">Create Account</string>
+	<string name="successful_login"> </string>
+	
+	<string name="edit_message_password">Password</string>
+	<string name="edit_message_login">User Name</string>
+	<string name="table_select">Select Game Type</string>
+	<string name="buttonTexas">Texas HoldEm</string>
+	<string name="buttonSevenCard">Seven Card Stud</string>
+	<string name="buttonIndian">Indian Poker</string>
+	<string name="buttonLogout">Logout</string>
+	<string name="table_list">Open Poker Tables</string>
+	
+	
+	<style name="ButtonText">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_margin">3dp</item>
+    <item name="android:textSize">25dp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:shadowColor">#000000</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">2</item>
+	</style>
+
+	<style name="SmallButtonText">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_margin">3dp</item>
+    <item name="android:textSize">15dp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:shadowColor">#000000</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">2</item>
+</style>
+	
+</resources>

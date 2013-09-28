@@ -1,0 +1,9 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    <item format="integer" type="id" name="button_0">0</item>
+    <item format="integer" type="id" name="button_1">1</item>
+    <item format="integer" type="id" name="button_2">2</item>
+    <item format="integer" type="id" name="button_3">3</item>
+
+</resources>

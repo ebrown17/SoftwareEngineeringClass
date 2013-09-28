@@ -1,0 +1,63 @@
+<?xml version ="1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="@string/table_select"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/buttonTexas"
+        style="@style/ButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rud_button"
+        android:text="@string/buttonTexas" 
+        android:onClick="tableTextSelect"/>
+
+    <Button
+        android:id="@+id/buttonSevenCard"
+        style="@style/ButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonTexas"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rud_button"
+        android:text="@string/buttonSevenCard" />
+
+    <Button
+        android:id="@+id/buttonIndian"
+        style="@style/ButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonSevenCard"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rud_button"
+        android:text="@string/buttonIndian" />
+
+    <Button
+        android:id="@+id/buttonLogout2"
+        style="@style/ButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonIndian"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:background="@drawable/rud_button"
+        android:text="@string/buttonLogout"
+        android:onClick="logoutMenu" />
+
+</RelativeLayout>

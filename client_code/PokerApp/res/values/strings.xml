@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">PokerApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    
+    
+    <string name="button_nxt">next</string>
+    <string name="button_start">Start</string>
+    <string name="button_back">back</string>
+    <string name="button_create">Create Account</string>
+    
+    <string name="title_activity_main">Welcome Screen</string>
+    <string name="title_log_in_screen">LogIn Screen</string>
+    <string name="title_create_account">Create Account</string>
+    <string name="title_menu">Menu</string>
+
+</resources>
